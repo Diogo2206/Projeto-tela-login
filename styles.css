@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+body {
+    background-color:  #E5E5E5;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.lado-esquerdo {
+    background-color: #06A67E;
+    font-family: Montserrat;
+    color: #FFFFFF;
+    width: 308px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 68px;
+    align-items: center;
+}
+
+
+h1 {
+    font-size: 26px;
+    font-weight: 700;
+    padding-top: 150px;
+
+}
+
+p {
+    font-size: 12px;
+    font-weight: 400;
+    padding-top: 16px;
+    margin-left: 47px;
+    margin-right: 47px;
+    text-align: center;
+}
+
+.primeiro-botao {
+    border: 1px solid #FFFFFF;
+    border-radius: 20px;
+    width: 158px;
+    height: 39px;
+    font-size: 10px;
+    color: #FFFFFF;
+    background-color: #06A67E;
+    font-family: Montserrat;
+    font-weight: 600;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.primeiro-botao:hover {
+    opacity: 0.3;
+}
+
+.lado-direito {
+    display: flex;
+    width: 450px;
+    height: 500px;
+    background-color: red;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 68px;
+    background-color: #FFFFFF;
+}
+
+h2 {
+    font-size: 26px;
+    font-family: Montserrat;
+    font-weight: 700;
+    color: #38B593;
+    margin-top: 60px;
+}
+
+h4 {
+    font-size: 12px;
+    font-weight: 400;
+    font-family: Montserrat;
+    color: #9A9A9A;
+    padding-top: 40px;
+}
+
+input {
+    color: #9A9A9A;
+    font-size: 10px;
+    font-family: Montserrat;
+    font-weight: 600;
+    outline: none;
+}
+
+.icones-input {
+    position: absolute;
+    padding-top: 10px;
+    padding-left: 7px;
+    color: #9A9A9A;
+}
+
+.name {
+    display: block;
+    width: 242px;
+    height: 36px;
+    background:  #F4F8F5;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    padding-left: 41px;
+}
+
+.email {
+    display: block;
+    width: 242px;
+    height: 36px;
+    background:  #F4F8F5;
+    padding-left: 41px;
+    margin-bottom: 10px;
+}
+
+.passaword {
+    display: block;
+    width: 242px;
+    height: 36px;
+    background:  #F4F8F5;
+    padding-left: 41px;
+    margin-bottom: 20px;
+
+    
+}
+
+.cabecalho-imagem {
+    padding-top: 16px;
+    padding-left: 60px;
+    cursor: pointer;
+}
+
+.segundo-botao {
+    background: #38B593;
+    width: 158px;
+    height: 39px;
+    border-radius: 20px;
+    margin-left: 42px;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-family: Montserrat;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.segundo-botao:hover {
+    opacity: 0.8;
+}
+
+#cabecalho-imagem {
+    margin-left: 50px;
+}
+
+.h4-login {
+    font-size: 10px;
+    font-family: Montserrat;
+    font-weight: 400;
+    margin-bottom: 30px;
+    color: #9A9A9A;
+}
+
+.nova-senha {
+    font-family: Montserrat;
+    font-size: 10px;
+    font-weight: 700;
+    color: #373737;
+    margin-bottom: 16px;
+    margin-right: 42px;
+}
+
+.botao-login {
+    margin-right: 42px;
+}
+
+.sucesso {
+    background-color:#06A67E;
+    width: 385px;
+    height: 500px;
+    margin-top: 68px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Montserrat;
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
